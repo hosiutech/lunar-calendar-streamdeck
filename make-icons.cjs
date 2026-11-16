@@ -43,6 +43,6 @@ for (const [name, size] of [['hosiu-category', 28], ['hosiu-category@2x', 56]]) 
 }
 
 const settings = normalizeSettings();
-const sample = getCalendar(new Date(2026, 10, 14, 12), settings);
+const sample = getCalendar(new Date(2026, 10, 15, 12), settings);
 const image = renderKey(sample, settings, 'example');
 fs.writeFileSync(path.join(__dirname, 'preview.png'), Buffer.from(image.split(',')[1], 'base64'));

@@ -56,3 +56,4 @@ select, input[type="color"] {
 .apply-row { grid-column: 1 / -1; display: flex; align-items: center; gap: 10px; }
 button { font: inherit; padding: 5px 16px; cursor: pointer; }
 #apply-status { color: #ddd; }
+.release-version { margin-top: 12px; color: #bdbdbd; font-size: 11px; text-align: right; }

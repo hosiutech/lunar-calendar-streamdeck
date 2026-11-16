@@ -4,7 +4,7 @@
   "Name": "Lunar Calendar",
   "Author": "Lunar Calendar contributors",
   "Description": "Chinese lunar date, zodiac and solar term for Stream Deck.",
-  "Version": "1.1.6.0",
+  "Version": "1.1.6.1",
   "Icon": "icons/plugin",
   "Category": "Custom Button [Hosiu]",
   "CategoryIcon": "icons/hosiu-category",
