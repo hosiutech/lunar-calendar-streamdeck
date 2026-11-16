@@ -1,8 +1,0 @@
-{
-  "dependencies": {
-    "@resvg/resvg-js": "2.6.2",
-    "koffi": "3.3.8",
-    "lunar-javascript": "1.7.8",
-    "pngjs": "7.0.0"
-  }
-}
