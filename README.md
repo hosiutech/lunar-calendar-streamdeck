@@ -75,5 +75,4 @@ The Windows renderer uses Microsoft YaHei Bold for both Chinese scripts when ava
 
 Calendar calculations use [lunar-javascript](https://github.com/6tail/lunar-javascript), including leap months and solar terms. PNG rendering uses [resvg-js](https://github.com/thx/resvg-js).
 
-![Lunar Calendar key preview](preview.png)
 ![Lunar Calendar settings preview](preview-2.jpg)
