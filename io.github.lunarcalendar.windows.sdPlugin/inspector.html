@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lunar Calendar Settings</title>
+<link rel="stylesheet" href="inspector.css">
+<script defer src="settings.js"></script>
+<script defer src="inspector.js"></script>
+<main>
+  <img id="preview" src="icons/key.png" width="112" height="112" alt="Live Key Preview">
+  <form>
+    <fieldset disabled>
+      <h2>Zodiac and Solar Term</h2>
+      <div class="toggles">
+        <label><input id="showZodiac" name="showZodiac" type="checkbox"> Zodiac Icon</label>
+        <label><input id="showSolarTerms" name="showSolarTerms" type="checkbox"> Solar Term</label>
+      </div>
+      <label for="solarTermLanguage">Solar Term Language</label>
+      <select id="solarTermLanguage" name="solarTermLanguage">
+        <option value="traditional">繁體中文</option>
+        <option value="simplified">简体中文</option>
+        <option value="english">English</option>
+      </select>
+
+      <h2>Zone 2 · Date and Weekday</h2>
+      <label for="dateLanguage">Date and Weekday Language</label>
+      <select id="dateLanguage" name="dateLanguage">
+        <option value="traditional">繁體中文</option>
+        <option value="simplified">简体中文</option>
+        <option value="english">English</option>
+      </select>
+      <div class="toggles">
+        <label><input id="showYear" name="showYear" type="checkbox"> Show 2-Digit Year</label>
+      </div>
+
+      <h2>Zone 3 · Lunar Date</h2>
+      <label for="lunarLanguage">Lunar Date Language</label>
+      <select id="lunarLanguage" name="lunarLanguage">
+        <option value="traditional">繁體中文</option>
+        <option value="simplified">简体中文</option>
+      </select>
+      <label for="lunarFormat">Lunar Date Format</label>
+      <select id="lunarFormat" name="lunarFormat">
+        <option value="full">Full</option>
+        <option value="short">Short</option>
+      </select>
+
+      <div class="separator"></div>
+      <label for="colorMode">Text Color</label>
+      <div class="color">
+        <select id="colorMode" name="colorMode">
+          <option value="random">Daily Random Bright Colors</option>
+          <option value="#FFFFFF">White</option>
+          <option value="#FFCC55">Gold</option>
+          <option value="#66FFCC">Mint</option>
+          <option value="custom">Custom</option>
+        </select>
+        <input id="customColor" name="customColor" type="color" value="#FFFFFF" aria-label="Custom Text Color" hidden>
+      </div>
+
+      <label for="buttonAction">On Key Press</label>
+      <select id="buttonAction" name="buttonAction">
+        <option value="calendar">Open Google Calendar</option>
+        <option value="outlook" hidden disabled>Open Outlook Calendar</option>
+        <option value="none">Do Nothing</option>
+      </select>
+      <div class="apply-row">
+        <button type="submit">Apply</button>
+        <span id="apply-status" role="status"></span>
+      </div>
+    </fieldset>
+  </form>
+  <footer class="release-version">Version 1.0</footer>
+</main>
+</html>

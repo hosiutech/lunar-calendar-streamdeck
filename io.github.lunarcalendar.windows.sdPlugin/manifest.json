@@ -1,0 +1,43 @@
+{
+  "$schema": "https://schemas.elgato.com/streamdeck/plugins/manifest.json",
+  "UUID": "io.github.lunarcalendar.windows",
+  "Name": "Lunar Calendar",
+  "Author": "Lunar Calendar contributors",
+  "Description": "Chinese lunar date, zodiac and solar term for Stream Deck.",
+  "Version": "1.1.6.1",
+  "Icon": "icons/plugin",
+  "Category": "Custom Button [Hosiu]",
+  "CategoryIcon": "icons/hosiu-category",
+  "CodePath": "plugin.cjs",
+  "SDKVersion": 2,
+  "Nodejs": {
+    "Version": "24"
+  },
+  "Software": {
+    "MinimumVersion": "7.1"
+  },
+  "OS": [
+    {
+      "Platform": "windows",
+      "MinimumVersion": "10"
+    }
+  ],
+  "Actions": [
+    {
+      "UUID": "io.github.lunarcalendar.windows.date",
+      "Name": "Lunar Date",
+      "Tooltip": "Show today's lunar date and latest solar term.",
+      "Icon": "icons/action",
+      "Controllers": [
+        "Keypad"
+      ],
+      "PropertyInspectorPath": "inspector.html",
+      "States": [
+        {
+          "Image": "icons/key",
+          "ShowTitle": false
+        }
+      ]
+    }
+  ]
+}
