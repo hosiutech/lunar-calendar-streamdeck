@@ -20,6 +20,8 @@ Use Windows 10 or 11 (x64) and Stream Deck 7.1 or later. Double-click the `.stre
 
 The calendar, settings and image rendering run locally inside Stream Deck. An internet connection is required to visit Google Calendar.
 
+![Lunar Calendar settings preview](preview-2.jpg)
+
 ## Read the source
 
 Inside `io.github.lunarcalendar.windows.sdPlugin/`, start with `plugin.cjs` to see how Stream Deck events connect to calendar rendering, per-key settings and Google Calendar.
@@ -74,5 +76,3 @@ For a local artwork swap in an already installed plugin, you can also replace th
 The Windows renderer uses Microsoft YaHei Bold for both Chinese scripts when available, with a shared list of Windows fallback fonts. English uses Arial Bold.
 
 Calendar calculations use [lunar-javascript](https://github.com/6tail/lunar-javascript), including leap months and solar terms. PNG rendering uses [resvg-js](https://github.com/thx/resvg-js).
-
-![Lunar Calendar settings preview](preview-2.jpg)
