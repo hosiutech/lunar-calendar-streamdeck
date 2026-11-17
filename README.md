@@ -19,6 +19,7 @@ Use Windows 10 or 11 (x64) and Stream Deck 7.1 or later. Download `hosiu.lunarca
 - Pressing the key opens Google Calendar by default. Choose **Open Outlook Calendar** when classic Outlook (`OUTLOOK.EXE`) is installed, or choose **Do Nothing**.
 
 The calendar, settings and image rendering run locally inside Stream Deck. An internet connection is required to visit Google Calendar.
+
 ![Lunar Calendar settings preview](preview-2.jpg)
 
 ## Read the source
